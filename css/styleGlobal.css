@@ -4,7 +4,6 @@
 
 
 body{
-
     	display: flex;
     	/*Pone debajo el footer.*/
     	flex-wrap:wrap;
@@ -31,7 +30,7 @@ header{
 
 header>nav{
 	text-align: center;
-	background: #1A5276;
+	background: #000000;
 	z-index: 1000;
 	max-width: 2000px;
 	width: 100%;
@@ -55,8 +54,12 @@ text-decoration: none;
 padding: 20px;
 }
 
-header>nav>ul>li>a:hover{
+/*header>nav>ul>li>a:hover{
 color: #00c5b9;
+}*/
+
+header>nav>ul>li:hover{
+background: #00c5b9;
 }
 
 header>nav>ul>li>a>span{
@@ -132,7 +135,8 @@ footer>ul>li>a>span{
     	font-weight: bold;
     	text-decoration: none;
     }
-      div.menu_bar>span{
+    
+     div.menu_bar>span{
     float: center;   
     font-size: 40px;
      }
@@ -141,8 +145,8 @@ footer>ul>li>a>span{
         color: #24ffff;
      }*/
 
-     div.menu_bar:hover{
-        background: #00c5b9;;
+     div.menu_bar>a:hover{
+        background: #00c5b9;
      }
 
      header>nav{
