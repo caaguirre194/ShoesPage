@@ -85,7 +85,7 @@ position: relative;
 }
 
 footer>ul>li>a{
-font-size: medium;
+font-size: 20px;
 color: #000;
 display: block;
 padding: 20px;
@@ -101,6 +101,14 @@ color: #34af23;e1306c
 
 footer>ul>li>a>span.icon-instagram:hover{
 color: #e1306c;
+}
+
+footer>ul>li>a>span.icon-github:hover{
+color: #333333;
+}
+
+footer>ul>li>a>span.icon-youtube2:hover{
+color: #cd201f;
 }
 
 footer>ul>li>a>span{
