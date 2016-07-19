@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<!-- Permite simbolos raros y la letra Ñ -->
+	<!-- Permite simbolos raros y la letra Ñ 
+	
+	http://www.webestilo.com/guia/articulo.phtml?art=2
+	
+	-->
 	<meta charset="UTF-8">
 	<!-- Titulo de la pagina -->
-	<title>Productos-Saltapul Shoes</title>
-
+	<title>Saltapul Shoes</title>
 
     <!-- Permiten el uso de jquery en Cloud9 -->
     <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
@@ -18,12 +21,12 @@
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
 
 	
+
 	<!-- Estilos de el nav y el footer -->
-	<link rel="stylesheet" href="css/styleGlobal.css">
+	<link rel="stylesheet" href="css/styleProductos.css">
 	<!-- Estilos de los iconos -->
 	<link rel="stylesheet" href="css/fonts.css">
-	<!-- Estilos del Slider -->
-	<link rel="stylesheet" href="css/style.css">
+
 
     <!-- Controlador del nav Responsive -->
     <script src="js/mainMenu.js"></script>
@@ -34,9 +37,9 @@
 </head>
 <body>
 	
+
  <!-- Div contenedor que permite el diseño responsive-->
  <div class="contenedor">
-
 
   <header>
 	        <div class="menu_bar"><a href="#" class="bt_menu"><span class="icon-menu"></span></a>
@@ -57,33 +60,166 @@
     		            </li>
     	</ul>
     </nav>
+ 
         </header>
+        
+            <!-- Titulo del slider -->
+	<h1 class="slider-title"><a>Más de 500 Productos a tu alcance</a></h1>
+
 </div>
 
+	<!-- Slider Container -->
+	<section class="left_box">
+		<ul>
+			<li class="categoria">
+				<div class="cabecera-cat">
+					<span class="title">CATEGORÍA</span>
+				</div>
+				<div class="contenido-cat">
+					<ul>
+						 <li class="categoria-zapatos" >
+                        	<a href="">
+				     		<span class="icon-diamonds"></span>
+					        <span class="title">Zapatos</span>
+					        </a>
+                        </li>
+					</ul>
+				</div>
+			</li>
+			<li class="marca">
+				<div class="cabecera-cat">
+					<span class="title">MARCA</span>
+				</div>
+				<div class="contenido-cat">
+					<ul>
+						 <li class="marca-adidas" >
+                        	<a href="">
+				     		<span class="icon-minus"></span>
+					        <span class="title">Adidas</span>
+					        </a>
+                        </li>
+                         <li class="marca-converse" >
+                        	<a href="">
+				     		<span class="icon-minus"></span>
+					        <span class="title">Converse</span>
+					        </a>
+                        </li>
+                        
+                        <li class="marca-nike" >
+                        	<a href="">
+				     		<span class="icon-minus"></span>
+					        <span class="title">Nike</span>
+					        </a>
+                        </li>
+                        
+					</ul>
+				</div>
+				
+			</li>
+			<li class="color">
+				<div class="cabecera-cat">
+					<span class="title">COLOR</span>
+				</div>
+				<div class="contenido-cat">
+					<ul>
+                        
+                        <li class="color-negro" >
+                        	<a href="">
+				     		<span class="icon-droplet"></span>
+					        <span class="title">Negro</span>
+					        </a>
+                        </li>
+                        
+                        <li class="color-blanco">
+                        	<a href="">
+				     		<span class="icon-droplet"></span>
+					        <span class="title">Blanco</span>
+					        </a>
+                        </li>
+                        
+                        <li class="color-azul" >
+                        	<a href="">
+				     		<span class="icon-droplet"></span>
+					        <span class="title">Azul</span>
+					        </a>
+                        </li>
+                        
+                        <li class="color-rojo" >
+                        	<a href="">
+				     		<span class="icon-droplet"></span>
+					        <span class="title">Rojo</span>
+					        </a>
+                        </li>
+                        
+                         <li class="color-amarillo" >
+                        	<a href="">
+				     		<span class="icon-droplet"></span>
+					        <span class="title">Amarillo</span>
+					        </a>
+                        </li>
+                       
+                       
+                       
+                       
+					</ul>
+				</div>
+				
+			</li>
+			<li class="precio">
+				<div class="cabecera-cat">
+					<span class="title">PRECIO</span>
+				</div>
+				<div class="contenido-cat">
+					
+				</div>
+			</li>
+        	</ul>
+	
+	</section>
+	
+	
+	 <aside class="right_box">
+        	<ul>
+        		<li class="img-zapato">
+        		<div>
+        			
+        		</div>
+        		</li>
+        		<li class="img-zapato">
+        			<div>
+        			
+        		</div>	
+        		</li>
+        		<li class="img-zapato">
+        				<div>
+        			
+        		</div>
+        		</li>
+        		<li class="img-zapato">
+        				<div>
+        			
+        		</div>
+        		</li>
+        		<li class="img-zapato">
+        			<div>
+        			
+        		</div>	
+        		</li>
+        		<li class="img-zapato">
+        				<div>
+        			
+        		</div>
+        		</li>
+        	</ul>
+        </aside>
 
 
 
 
-
-
-<h1>Productos</h1>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	
+	<!-- Scripts del slider -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/main.js"></script>
 
 	<footer>
 		<h3>
@@ -97,6 +233,14 @@
     		            </li>
 
     		            <li><a href="#"><span class="icon-whatsapp"></span></a>
+    		            </li>
+
+                        <li><a href="#"><span class="icon-youtube2 "></span>
+    		            </a>
+    		            </li>
+
+                         <li><a href="#"><span class="icon-github"></span>
+    		            </a>
     		            </li>
              </ul>
 		&copy: Carlos... - 2016
